@@ -49,7 +49,19 @@ public class frm_CalcularSalario extends javax.swing.JFrame {
 
         lbHoras.setText("No.Horas");
 
+        txtNumeroHoras.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNumeroHorasActionPerformed(evt);
+            }
+        });
+
         lbSalario.setText("Salário");
+
+        txtMensagem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtMensagemActionPerformed(evt);
+            }
+        });
 
         lbMensagem.setText("Mensagem:");
 
@@ -216,11 +228,19 @@ public class frm_CalcularSalario extends javax.swing.JFrame {
         
         txtSalario.setText(String.valueOf(salario));
         
-        txtMensagem.setText("Prezado" +" "+ txtNome.getText() +" "+ "seu salário é de R$"
+        txtMensagem.setText("Prezado(a)" +" "+ txtNome.getText() +" "+ "seu salário é de R$"
                             + String.valueOf(salario) + ",00");
         
         
     }//GEN-LAST:event_btnCalcularSalarioActionPerformed
+
+    private void txtMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMensagemActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtMensagemActionPerformed
+
+    private void txtNumeroHorasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumeroHorasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNumeroHorasActionPerformed
 
     /**
      * @param args the command line arguments

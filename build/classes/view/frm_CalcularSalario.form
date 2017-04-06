@@ -116,6 +116,9 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtNumeroHoras">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNumeroHorasActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lbSalario">
       <Properties>
@@ -125,6 +128,9 @@
     <Component class="javax.swing.JTextField" name="txtSalario">
     </Component>
     <Component class="javax.swing.JTextField" name="txtMensagem">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMensagemActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lbMensagem">
       <Properties>
