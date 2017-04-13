@@ -11,15 +11,6 @@ package calcularSalario;
  */
 public class CalcularSalario {
     
- /**
- *
- *  int salario;
-    int salarioHora;
-    int numHoras = 0;
- * 
- */
-    
-    
     public CalcularSalario(){
     
            initComponents();
@@ -30,6 +21,7 @@ public class CalcularSalario {
     }
 
     private void initComponents() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet."); 
+    //To change body of generated methods, choose Tools | Templates.
     }
 }
